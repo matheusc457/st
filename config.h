@@ -7,7 +7,7 @@
  */
 //static char *font = "CaskaydiaCove Nerd Font Mono:size:12:pixelsize=19:antialias=true:autohint=true";
 static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=15:antialias=true:autohint=true";
-static int borderpx = 2;
+static int borderpx = 8;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -109,8 +109,7 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
   /* 8 normal colors */
-  //[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-  [0] = "#1d2021",
+  [0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
   [1] = "#cc241d", /* red     */
   [2] = "#98971a", /* green   */
   [3] = "#d79921", /* yellow  */
